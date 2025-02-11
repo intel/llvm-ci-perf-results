@@ -1,4 +1,4 @@
-# [`compute-benchmarks`](https://github.com/intel/compute-benchmarks) Benchmarking Results for [intel/llvm](https://github.com/intel/llvm)
+# [`compute-benchmarks`](https://github.com/intel/compute-benchmarks) Results for [intel/llvm](https://github.com/intel/llvm)
 
 This repo holds benchmark results ([`compute-benchmarks`](https://github.com/intel/compute-benchmarks)) results for the [oneAPI DPC++ compiler](https://github.com/intel/llvm?tab=readme-ov-file#oneapi-dpc-compiler). Benchmark results are produced via CI, and used to catch regressions in [intel/llvm](https://github.com/intel/llvm).
 
