@@ -1,0 +1,229 @@
+TestCase,Median
+QueueInOrderMemcpy(api=sycl IsCopyOnly=1 sourcePlacement=Host destinationPlacement=Host size=1MB count=10),457.23350000000005
+QueueInOrderMemcpy(api=sycl IsCopyOnly=0 sourcePlacement=Host destinationPlacement=Host size=1MB count=10),451.8985
+QueueInOrderMemcpy(api=sycl IsCopyOnly=1 sourcePlacement=Host destinationPlacement=Shared size=1MB count=10),288.726
+QueueInOrderMemcpy(api=sycl IsCopyOnly=0 sourcePlacement=Host destinationPlacement=Shared size=1MB count=10),288.53999999999996
+QueueInOrderMemcpy(api=sycl IsCopyOnly=1 sourcePlacement=Host destinationPlacement=Device size=1MB count=10),288.83000000000004
+QueueInOrderMemcpy(api=sycl IsCopyOnly=0 sourcePlacement=Host destinationPlacement=Device size=1MB count=10),288.9835
+QueueInOrderMemcpy(api=sycl IsCopyOnly=1 sourcePlacement=Shared destinationPlacement=Host size=1MB count=10),276.5825
+QueueInOrderMemcpy(api=sycl IsCopyOnly=0 sourcePlacement=Shared destinationPlacement=Host size=1MB count=10),276.658
+QueueInOrderMemcpy(api=sycl IsCopyOnly=1 sourcePlacement=Shared destinationPlacement=Shared size=1MB count=10),63.066500000000005
+QueueInOrderMemcpy(api=sycl IsCopyOnly=0 sourcePlacement=Shared destinationPlacement=Shared size=1MB count=10),62.8475
+QueueInOrderMemcpy(api=sycl IsCopyOnly=1 sourcePlacement=Shared destinationPlacement=Device size=1MB count=10),63.085
+QueueInOrderMemcpy(api=sycl IsCopyOnly=0 sourcePlacement=Shared destinationPlacement=Device size=1MB count=10),62.8025
+QueueInOrderMemcpy(api=sycl IsCopyOnly=1 sourcePlacement=Device destinationPlacement=Host size=1MB count=10),276.466
+QueueInOrderMemcpy(api=sycl IsCopyOnly=0 sourcePlacement=Device destinationPlacement=Host size=1MB count=10),276.9375
+QueueInOrderMemcpy(api=sycl IsCopyOnly=1 sourcePlacement=Device destinationPlacement=Shared size=1MB count=10),62.7335
+QueueInOrderMemcpy(api=sycl IsCopyOnly=0 sourcePlacement=Device destinationPlacement=Shared size=1MB count=10),62.4795
+QueueInOrderMemcpy(api=sycl IsCopyOnly=1 sourcePlacement=Device destinationPlacement=Device size=1MB count=10),50.754
+QueueInOrderMemcpy(api=sycl IsCopyOnly=0 sourcePlacement=Device destinationPlacement=Device size=1MB count=10),50.75
+QueueMemcpy(api=sycl sourcePlacement=Host destinationPlacement=Host size=128MB),5311.9425
+QueueMemcpy(api=sycl sourcePlacement=Host destinationPlacement=Host size=512MB),21263.874000000003
+QueueMemcpy(api=sycl sourcePlacement=Host destinationPlacement=Shared size=128MB),3113.8215
+QueueMemcpy(api=sycl sourcePlacement=Host destinationPlacement=Shared size=512MB),12425.927
+QueueMemcpy(api=sycl sourcePlacement=Host destinationPlacement=Device size=128MB),3111.2275
+QueueMemcpy(api=sycl sourcePlacement=Host destinationPlacement=Device size=512MB),12428.486499999999
+QueueMemcpy(api=sycl sourcePlacement=Shared destinationPlacement=Host size=128MB),2889.509
+QueueMemcpy(api=sycl sourcePlacement=Shared destinationPlacement=Host size=512MB),11534.8465
+QueueMemcpy(api=sycl sourcePlacement=Shared destinationPlacement=Shared size=128MB),423.96450000000004
+QueueMemcpy(api=sycl sourcePlacement=Shared destinationPlacement=Shared size=512MB),1626.67
+QueueMemcpy(api=sycl sourcePlacement=Shared destinationPlacement=Device size=128MB),413.757
+QueueMemcpy(api=sycl sourcePlacement=Shared destinationPlacement=Device size=512MB),1635.1985
+QueueMemcpy(api=sycl sourcePlacement=Device destinationPlacement=Host size=128MB),2889.2169999999996
+QueueMemcpy(api=sycl sourcePlacement=Device destinationPlacement=Host size=512MB),11533.543
+QueueMemcpy(api=sycl sourcePlacement=Device destinationPlacement=Shared size=128MB),424.6205
+QueueMemcpy(api=sycl sourcePlacement=Device destinationPlacement=Shared size=512MB),1626.896
+QueueMemcpy(api=sycl sourcePlacement=Device destinationPlacement=Device size=128MB),341.88300000000004
+QueueMemcpy(api=sycl sourcePlacement=Device destinationPlacement=Device size=512MB),1352.2555
+StreamMemory(api=sycl type=Read size=1MB useEvents=0 contents=Zeros memoryPlacement=Device multiplier=1),80.3125
+StreamMemory(api=sycl type=Read size=1MB useEvents=0 contents=Zeros memoryPlacement=Host multiplier=1),80.1135
+StreamMemory(api=sycl type=Read size=1MB useEvents=0 contents=Random memoryPlacement=Device multiplier=1),80.152
+StreamMemory(api=sycl type=Read size=1MB useEvents=0 contents=Random memoryPlacement=Host multiplier=1),80.73750000000001
+StreamMemory(api=sycl type=Read size=1MB useEvents=1 contents=Zeros memoryPlacement=Device multiplier=1),468.114
+StreamMemory(api=sycl type=Read size=1MB useEvents=1 contents=Zeros memoryPlacement=Host multiplier=1),468.114
+StreamMemory(api=sycl type=Read size=1MB useEvents=1 contents=Random memoryPlacement=Device multiplier=1),436.907
+StreamMemory(api=sycl type=Read size=1MB useEvents=1 contents=Random memoryPlacement=Host multiplier=1),452.5105
+StreamMemory(api=sycl type=Read size=8MB useEvents=0 contents=Zeros memoryPlacement=Device multiplier=1),447.786
+StreamMemory(api=sycl type=Read size=8MB useEvents=0 contents=Zeros memoryPlacement=Host multiplier=1),448.23350000000005
+StreamMemory(api=sycl type=Read size=8MB useEvents=0 contents=Random memoryPlacement=Device multiplier=1),447.158
+StreamMemory(api=sycl type=Read size=8MB useEvents=0 contents=Random memoryPlacement=Host multiplier=1),451.0395
+StreamMemory(api=sycl type=Read size=8MB useEvents=1 contents=Zeros memoryPlacement=Device multiplier=1),1048.576
+StreamMemory(api=sycl type=Read size=8MB useEvents=1 contents=Zeros memoryPlacement=Host multiplier=1),1048.576
+StreamMemory(api=sycl type=Read size=8MB useEvents=1 contents=Random memoryPlacement=Device multiplier=1),1048.576
+StreamMemory(api=sycl type=Read size=8MB useEvents=1 contents=Random memoryPlacement=Host multiplier=1),1048.576
+StreamMemory(api=sycl type=Read size=32MB useEvents=0 contents=Zeros memoryPlacement=Device multiplier=1),868.3195000000001
+StreamMemory(api=sycl type=Read size=32MB useEvents=0 contents=Zeros memoryPlacement=Host multiplier=1),866.6375
+StreamMemory(api=sycl type=Read size=32MB useEvents=0 contents=Random memoryPlacement=Device multiplier=1),866.8895
+StreamMemory(api=sycl type=Read size=32MB useEvents=0 contents=Random memoryPlacement=Host multiplier=1),867.685
+StreamMemory(api=sycl type=Read size=32MB useEvents=1 contents=Zeros memoryPlacement=Device multiplier=1),1205.26
+StreamMemory(api=sycl type=Read size=32MB useEvents=1 contents=Zeros memoryPlacement=Host multiplier=1),1205.26
+StreamMemory(api=sycl type=Read size=32MB useEvents=1 contents=Random memoryPlacement=Device multiplier=1),1205.26
+StreamMemory(api=sycl type=Read size=32MB useEvents=1 contents=Random memoryPlacement=Host multiplier=1),1205.26
+StreamMemory(api=sycl type=Read size=128MB useEvents=0 contents=Zeros memoryPlacement=Device multiplier=1),828.3634999999999
+StreamMemory(api=sycl type=Read size=128MB useEvents=0 contents=Zeros memoryPlacement=Host multiplier=1),827.8735
+StreamMemory(api=sycl type=Read size=128MB useEvents=0 contents=Random memoryPlacement=Device multiplier=1),827.6534999999999
+StreamMemory(api=sycl type=Read size=128MB useEvents=0 contents=Random memoryPlacement=Host multiplier=1),829.2355
+StreamMemory(api=sycl type=Read size=128MB useEvents=1 contents=Zeros memoryPlacement=Device multiplier=1),889.0965
+StreamMemory(api=sycl type=Read size=128MB useEvents=1 contents=Zeros memoryPlacement=Host multiplier=1),887.9190000000001
+StreamMemory(api=sycl type=Read size=128MB useEvents=1 contents=Random memoryPlacement=Device multiplier=1),889.5699999999999
+StreamMemory(api=sycl type=Read size=128MB useEvents=1 contents=Random memoryPlacement=Host multiplier=1),888.1535
+StreamMemory(api=sycl type=Read size=512MB useEvents=0 contents=Zeros memoryPlacement=Device multiplier=1),735.7945
+StreamMemory(api=sycl type=Read size=512MB useEvents=0 contents=Zeros memoryPlacement=Host multiplier=1),736.2284999999999
+StreamMemory(api=sycl type=Read size=512MB useEvents=0 contents=Random memoryPlacement=Device multiplier=1),736.119
+StreamMemory(api=sycl type=Read size=512MB useEvents=0 contents=Random memoryPlacement=Host multiplier=1),736.332
+StreamMemory(api=sycl type=Read size=512MB useEvents=1 contents=Zeros memoryPlacement=Device multiplier=1),747.814
+StreamMemory(api=sycl type=Read size=512MB useEvents=1 contents=Zeros memoryPlacement=Host multiplier=1),747.8145
+StreamMemory(api=sycl type=Read size=512MB useEvents=1 contents=Random memoryPlacement=Device multiplier=1),747.689
+StreamMemory(api=sycl type=Read size=512MB useEvents=1 contents=Random memoryPlacement=Host multiplier=1),747.8975
+StreamMemory(api=sycl type=Read size=1GB useEvents=0 contents=Zeros memoryPlacement=Device multiplier=1),742.8215
+StreamMemory(api=sycl type=Read size=1GB useEvents=0 contents=Zeros memoryPlacement=Host multiplier=1),742.814
+StreamMemory(api=sycl type=Read size=1GB useEvents=0 contents=Random memoryPlacement=Device multiplier=1),742.7255
+StreamMemory(api=sycl type=Read size=1GB useEvents=0 contents=Random memoryPlacement=Host multiplier=1),742.83
+StreamMemory(api=sycl type=Read size=1GB useEvents=1 contents=Zeros memoryPlacement=Device multiplier=1),748.774
+StreamMemory(api=sycl type=Read size=1GB useEvents=1 contents=Zeros memoryPlacement=Host multiplier=1),748.962
+StreamMemory(api=sycl type=Read size=1GB useEvents=1 contents=Random memoryPlacement=Device multiplier=1),748.941
+StreamMemory(api=sycl type=Read size=1GB useEvents=1 contents=Random memoryPlacement=Host multiplier=1),748.816
+StreamMemory(api=sycl type=Write size=1MB useEvents=0 contents=Zeros memoryPlacement=Device multiplier=1),98.5745
+StreamMemory(api=sycl type=Write size=1MB useEvents=0 contents=Zeros memoryPlacement=Host multiplier=1),99.252
+StreamMemory(api=sycl type=Write size=1MB useEvents=0 contents=Random memoryPlacement=Device multiplier=1),99.4645
+StreamMemory(api=sycl type=Write size=1MB useEvents=0 contents=Random memoryPlacement=Host multiplier=1),99.4685
+StreamMemory(api=sycl type=Write size=1MB useEvents=1 contents=Zeros memoryPlacement=Device multiplier=1),655.36
+StreamMemory(api=sycl type=Write size=1MB useEvents=1 contents=Zeros memoryPlacement=Host multiplier=1),655.36
+StreamMemory(api=sycl type=Write size=1MB useEvents=1 contents=Random memoryPlacement=Device multiplier=1),655.36
+StreamMemory(api=sycl type=Write size=1MB useEvents=1 contents=Random memoryPlacement=Host multiplier=1),655.36
+StreamMemory(api=sycl type=Write size=8MB useEvents=0 contents=Zeros memoryPlacement=Device multiplier=1),573.9055000000001
+StreamMemory(api=sycl type=Write size=8MB useEvents=0 contents=Zeros memoryPlacement=Host multiplier=1),575.7655
+StreamMemory(api=sycl type=Write size=8MB useEvents=0 contents=Random memoryPlacement=Device multiplier=1),575.9885
+StreamMemory(api=sycl type=Write size=8MB useEvents=0 contents=Random memoryPlacement=Host multiplier=1),573.6980000000001
+StreamMemory(api=sycl type=Write size=8MB useEvents=1 contents=Zeros memoryPlacement=Device multiplier=1),1497.966
+StreamMemory(api=sycl type=Write size=8MB useEvents=1 contents=Zeros memoryPlacement=Host multiplier=1),1497.966
+StreamMemory(api=sycl type=Write size=8MB useEvents=1 contents=Random memoryPlacement=Device multiplier=1),1477.161
+StreamMemory(api=sycl type=Write size=8MB useEvents=1 contents=Random memoryPlacement=Host multiplier=1),1497.966
+StreamMemory(api=sycl type=Write size=32MB useEvents=0 contents=Zeros memoryPlacement=Device multiplier=1),1181.9265
+StreamMemory(api=sycl type=Write size=32MB useEvents=0 contents=Zeros memoryPlacement=Host multiplier=1),1177.688
+StreamMemory(api=sycl type=Write size=32MB useEvents=0 contents=Random memoryPlacement=Device multiplier=1),1177.1195
+StreamMemory(api=sycl type=Write size=32MB useEvents=0 contents=Random memoryPlacement=Host multiplier=1),1176.498
+StreamMemory(api=sycl type=Write size=32MB useEvents=1 contents=Zeros memoryPlacement=Device multiplier=1),1718.977
+StreamMemory(api=sycl type=Write size=32MB useEvents=1 contents=Zeros memoryPlacement=Host multiplier=1),1718.977
+StreamMemory(api=sycl type=Write size=32MB useEvents=1 contents=Random memoryPlacement=Device multiplier=1),1718.977
+StreamMemory(api=sycl type=Write size=32MB useEvents=1 contents=Random memoryPlacement=Host multiplier=1),1718.977
+StreamMemory(api=sycl type=Write size=128MB useEvents=0 contents=Zeros memoryPlacement=Device multiplier=1),1171.9189999999999
+StreamMemory(api=sycl type=Write size=128MB useEvents=0 contents=Zeros memoryPlacement=Host multiplier=1),1183.0695
+StreamMemory(api=sycl type=Write size=128MB useEvents=0 contents=Random memoryPlacement=Device multiplier=1),1174.983
+StreamMemory(api=sycl type=Write size=128MB useEvents=0 contents=Random memoryPlacement=Host multiplier=1),1175.1395
+StreamMemory(api=sycl type=Write size=128MB useEvents=1 contents=Zeros memoryPlacement=Device multiplier=1),1278.7545
+StreamMemory(api=sycl type=Write size=128MB useEvents=1 contents=Zeros memoryPlacement=Host multiplier=1),1289.1109999999999
+StreamMemory(api=sycl type=Write size=128MB useEvents=1 contents=Random memoryPlacement=Device multiplier=1),1278.7545
+StreamMemory(api=sycl type=Write size=128MB useEvents=1 contents=Random memoryPlacement=Host multiplier=1),1288.6
+StreamMemory(api=sycl type=Write size=512MB useEvents=0 contents=Zeros memoryPlacement=Device multiplier=1),866.3309999999999
+StreamMemory(api=sycl type=Write size=512MB useEvents=0 contents=Zeros memoryPlacement=Host multiplier=1),866.7764999999999
+StreamMemory(api=sycl type=Write size=512MB useEvents=0 contents=Random memoryPlacement=Device multiplier=1),866.1385
+StreamMemory(api=sycl type=Write size=512MB useEvents=0 contents=Random memoryPlacement=Host multiplier=1),865.768
+StreamMemory(api=sycl type=Write size=512MB useEvents=1 contents=Zeros memoryPlacement=Device multiplier=1),880.694
+StreamMemory(api=sycl type=Write size=512MB useEvents=1 contents=Zeros memoryPlacement=Host multiplier=1),880.521
+StreamMemory(api=sycl type=Write size=512MB useEvents=1 contents=Random memoryPlacement=Device multiplier=1),880.174
+StreamMemory(api=sycl type=Write size=512MB useEvents=1 contents=Random memoryPlacement=Host multiplier=1),880.1165
+StreamMemory(api=sycl type=Write size=1GB useEvents=0 contents=Zeros memoryPlacement=Device multiplier=1),871.1469999999999
+StreamMemory(api=sycl type=Write size=1GB useEvents=0 contents=Zeros memoryPlacement=Host multiplier=1),871.1905
+StreamMemory(api=sycl type=Write size=1GB useEvents=0 contents=Random memoryPlacement=Device multiplier=1),871.3985
+StreamMemory(api=sycl type=Write size=1GB useEvents=0 contents=Random memoryPlacement=Host multiplier=1),871.3135
+StreamMemory(api=sycl type=Write size=1GB useEvents=1 contents=Zeros memoryPlacement=Device multiplier=1),878.6469999999999
+StreamMemory(api=sycl type=Write size=1GB useEvents=1 contents=Zeros memoryPlacement=Host multiplier=1),878.9635
+StreamMemory(api=sycl type=Write size=1GB useEvents=1 contents=Random memoryPlacement=Device multiplier=1),878.5895
+StreamMemory(api=sycl type=Write size=1GB useEvents=1 contents=Random memoryPlacement=Host multiplier=1),878.8195000000001
+StreamMemory(api=sycl type=Scale size=1MB useEvents=0 contents=Zeros memoryPlacement=Device multiplier=1),157.1855
+StreamMemory(api=sycl type=Scale size=1MB useEvents=0 contents=Zeros memoryPlacement=Host multiplier=1),159.812
+StreamMemory(api=sycl type=Scale size=1MB useEvents=0 contents=Random memoryPlacement=Device multiplier=1),160.94650000000001
+StreamMemory(api=sycl type=Scale size=1MB useEvents=0 contents=Random memoryPlacement=Host multiplier=1),157.6525
+StreamMemory(api=sycl type=Scale size=1MB useEvents=1 contents=Zeros memoryPlacement=Device multiplier=1),905.021
+StreamMemory(api=sycl type=Scale size=1MB useEvents=1 contents=Zeros memoryPlacement=Host multiplier=1),873.813
+StreamMemory(api=sycl type=Scale size=1MB useEvents=1 contents=Random memoryPlacement=Device multiplier=1),936.229
+StreamMemory(api=sycl type=Scale size=1MB useEvents=1 contents=Random memoryPlacement=Host multiplier=1),905.021
+StreamMemory(api=sycl type=Scale size=8MB useEvents=0 contents=Zeros memoryPlacement=Device multiplier=1),869.7405
+StreamMemory(api=sycl type=Scale size=8MB useEvents=0 contents=Zeros memoryPlacement=Host multiplier=1),875.9285
+StreamMemory(api=sycl type=Scale size=8MB useEvents=0 contents=Random memoryPlacement=Device multiplier=1),870.6005
+StreamMemory(api=sycl type=Scale size=8MB useEvents=0 contents=Random memoryPlacement=Host multiplier=1),871.5575
+StreamMemory(api=sycl type=Scale size=8MB useEvents=1 contents=Zeros memoryPlacement=Device multiplier=1),2016.492
+StreamMemory(api=sycl type=Scale size=8MB useEvents=1 contents=Zeros memoryPlacement=Host multiplier=1),2016.492
+StreamMemory(api=sycl type=Scale size=8MB useEvents=1 contents=Random memoryPlacement=Device multiplier=1),2016.492
+StreamMemory(api=sycl type=Scale size=8MB useEvents=1 contents=Random memoryPlacement=Host multiplier=1),1979.1495
+StreamMemory(api=sycl type=Scale size=32MB useEvents=0 contents=Zeros memoryPlacement=Device multiplier=1),1683.5205
+StreamMemory(api=sycl type=Scale size=32MB useEvents=0 contents=Zeros memoryPlacement=Host multiplier=1),1681.462
+StreamMemory(api=sycl type=Scale size=32MB useEvents=0 contents=Random memoryPlacement=Device multiplier=1),1658.605
+StreamMemory(api=sycl type=Scale size=32MB useEvents=0 contents=Random memoryPlacement=Host multiplier=1),1678.8235
+StreamMemory(api=sycl type=Scale size=32MB useEvents=1 contents=Zeros memoryPlacement=Device multiplier=1),2273.753
+StreamMemory(api=sycl type=Scale size=32MB useEvents=1 contents=Zeros memoryPlacement=Host multiplier=1),2304.563
+StreamMemory(api=sycl type=Scale size=32MB useEvents=1 contents=Random memoryPlacement=Device multiplier=1),2273.753
+StreamMemory(api=sycl type=Scale size=32MB useEvents=1 contents=Random memoryPlacement=Host multiplier=1),2261.8855000000003
+StreamMemory(api=sycl type=Scale size=128MB useEvents=0 contents=Zeros memoryPlacement=Device multiplier=1),812.7305
+StreamMemory(api=sycl type=Scale size=128MB useEvents=0 contents=Zeros memoryPlacement=Host multiplier=1),815.6655000000001
+StreamMemory(api=sycl type=Scale size=128MB useEvents=0 contents=Random memoryPlacement=Device multiplier=1),816.2325000000001
+StreamMemory(api=sycl type=Scale size=128MB useEvents=0 contents=Random memoryPlacement=Host multiplier=1),814.561
+StreamMemory(api=sycl type=Scale size=128MB useEvents=1 contents=Zeros memoryPlacement=Device multiplier=1),844.7775
+StreamMemory(api=sycl type=Scale size=128MB useEvents=1 contents=Zeros memoryPlacement=Host multiplier=1),845.631
+StreamMemory(api=sycl type=Scale size=128MB useEvents=1 contents=Random memoryPlacement=Device multiplier=1),844.9870000000001
+StreamMemory(api=sycl type=Scale size=128MB useEvents=1 contents=Random memoryPlacement=Host multiplier=1),846.501
+StreamMemory(api=sycl type=Scale size=512MB useEvents=0 contents=Zeros memoryPlacement=Device multiplier=1),836.4000000000001
+StreamMemory(api=sycl type=Scale size=512MB useEvents=0 contents=Zeros memoryPlacement=Host multiplier=1),828.808
+StreamMemory(api=sycl type=Scale size=512MB useEvents=0 contents=Random memoryPlacement=Device multiplier=1),831.3499999999999
+StreamMemory(api=sycl type=Scale size=512MB useEvents=0 contents=Random memoryPlacement=Host multiplier=1),829.7584999999999
+StreamMemory(api=sycl type=Scale size=512MB useEvents=1 contents=Zeros memoryPlacement=Device multiplier=1),836.4045
+StreamMemory(api=sycl type=Scale size=512MB useEvents=1 contents=Zeros memoryPlacement=Host multiplier=1),839.8665000000001
+StreamMemory(api=sycl type=Scale size=512MB useEvents=1 contents=Random memoryPlacement=Device multiplier=1),839.832
+StreamMemory(api=sycl type=Scale size=512MB useEvents=1 contents=Random memoryPlacement=Host multiplier=1),838.3385000000001
+StreamMemory(api=sycl type=Scale size=1GB useEvents=0 contents=Zeros memoryPlacement=Device multiplier=1),833.5540000000001
+StreamMemory(api=sycl type=Scale size=1GB useEvents=0 contents=Zeros memoryPlacement=Host multiplier=1),837.453
+StreamMemory(api=sycl type=Scale size=1GB useEvents=0 contents=Random memoryPlacement=Device multiplier=1),833.1120000000001
+StreamMemory(api=sycl type=Scale size=1GB useEvents=0 contents=Random memoryPlacement=Host multiplier=1),834.1245
+StreamMemory(api=sycl type=Scale size=1GB useEvents=1 contents=Zeros memoryPlacement=Device multiplier=1),838.4625
+StreamMemory(api=sycl type=Scale size=1GB useEvents=1 contents=Zeros memoryPlacement=Host multiplier=1),840.096
+StreamMemory(api=sycl type=Scale size=1GB useEvents=1 contents=Random memoryPlacement=Device multiplier=1),837.1759999999999
+StreamMemory(api=sycl type=Scale size=1GB useEvents=1 contents=Random memoryPlacement=Host multiplier=1),837.2280000000001
+StreamMemory(api=sycl type=Triad size=1MB useEvents=0 contents=Zeros memoryPlacement=Device multiplier=1),212.625
+StreamMemory(api=sycl type=Triad size=1MB useEvents=0 contents=Zeros memoryPlacement=Host multiplier=1),212.47899999999998
+StreamMemory(api=sycl type=Triad size=1MB useEvents=0 contents=Random memoryPlacement=Device multiplier=1),211.902
+StreamMemory(api=sycl type=Triad size=1MB useEvents=0 contents=Random memoryPlacement=Host multiplier=1),212.5085
+StreamMemory(api=sycl type=Triad size=1MB useEvents=1 contents=Zeros memoryPlacement=Device multiplier=1),1156.518
+StreamMemory(api=sycl type=Triad size=1MB useEvents=1 contents=Zeros memoryPlacement=Host multiplier=1),1192.659
+StreamMemory(api=sycl type=Triad size=1MB useEvents=1 contents=Random memoryPlacement=Device multiplier=1),1156.518
+StreamMemory(api=sycl type=Triad size=1MB useEvents=1 contents=Random memoryPlacement=Host multiplier=1),1192.659
+StreamMemory(api=sycl type=Triad size=8MB useEvents=0 contents=Zeros memoryPlacement=Device multiplier=1),1075.3205
+StreamMemory(api=sycl type=Triad size=8MB useEvents=0 contents=Zeros memoryPlacement=Host multiplier=1),1088.319
+StreamMemory(api=sycl type=Triad size=8MB useEvents=0 contents=Random memoryPlacement=Device multiplier=1),1079.6950000000002
+StreamMemory(api=sycl type=Triad size=8MB useEvents=0 contents=Random memoryPlacement=Host multiplier=1),1074.43
+StreamMemory(api=sycl type=Triad size=8MB useEvents=1 contents=Zeros memoryPlacement=Device multiplier=1),2279.513
+StreamMemory(api=sycl type=Triad size=8MB useEvents=1 contents=Zeros memoryPlacement=Host multiplier=1),2232.023
+StreamMemory(api=sycl type=Triad size=8MB useEvents=1 contents=Random memoryPlacement=Device multiplier=1),2140.05
+StreamMemory(api=sycl type=Triad size=8MB useEvents=1 contents=Random memoryPlacement=Host multiplier=1),2233.8215
+StreamMemory(api=sycl type=Triad size=32MB useEvents=0 contents=Zeros memoryPlacement=Device multiplier=1),1963.216
+StreamMemory(api=sycl type=Triad size=32MB useEvents=0 contents=Zeros memoryPlacement=Host multiplier=1),1958.0225
+StreamMemory(api=sycl type=Triad size=32MB useEvents=0 contents=Random memoryPlacement=Device multiplier=1),1895.6075
+StreamMemory(api=sycl type=Triad size=32MB useEvents=0 contents=Random memoryPlacement=Host multiplier=1),1944.0655000000002
+StreamMemory(api=sycl type=Triad size=32MB useEvents=1 contents=Zeros memoryPlacement=Device multiplier=1),2469.6684999999998
+StreamMemory(api=sycl type=Triad size=32MB useEvents=1 contents=Zeros memoryPlacement=Host multiplier=1),2562.807
+StreamMemory(api=sycl type=Triad size=32MB useEvents=1 contents=Random memoryPlacement=Device multiplier=1),2487.363
+StreamMemory(api=sycl type=Triad size=32MB useEvents=1 contents=Random memoryPlacement=Host multiplier=1),2547.148
+StreamMemory(api=sycl type=Triad size=128MB useEvents=0 contents=Zeros memoryPlacement=Device multiplier=1),784.5495
+StreamMemory(api=sycl type=Triad size=128MB useEvents=0 contents=Zeros memoryPlacement=Host multiplier=1),791.917
+StreamMemory(api=sycl type=Triad size=128MB useEvents=0 contents=Random memoryPlacement=Device multiplier=1),782.8395
+StreamMemory(api=sycl type=Triad size=128MB useEvents=0 contents=Random memoryPlacement=Host multiplier=1),786.7265
+StreamMemory(api=sycl type=Triad size=128MB useEvents=1 contents=Zeros memoryPlacement=Device multiplier=1),811.7439999999999
+StreamMemory(api=sycl type=Triad size=128MB useEvents=1 contents=Zeros memoryPlacement=Host multiplier=1),805.1255
+StreamMemory(api=sycl type=Triad size=128MB useEvents=1 contents=Random memoryPlacement=Device multiplier=1),807.768
+StreamMemory(api=sycl type=Triad size=128MB useEvents=1 contents=Random memoryPlacement=Host multiplier=1),798.9960000000001
+StreamMemory(api=sycl type=Triad size=512MB useEvents=0 contents=Zeros memoryPlacement=Device multiplier=1),800.8885
+StreamMemory(api=sycl type=Triad size=512MB useEvents=0 contents=Zeros memoryPlacement=Host multiplier=1),801.336
+StreamMemory(api=sycl type=Triad size=512MB useEvents=0 contents=Random memoryPlacement=Device multiplier=1),794.0315
+StreamMemory(api=sycl type=Triad size=512MB useEvents=0 contents=Random memoryPlacement=Host multiplier=1),794.7505
+StreamMemory(api=sycl type=Triad size=512MB useEvents=1 contents=Zeros memoryPlacement=Device multiplier=1),786.351
+StreamMemory(api=sycl type=Triad size=512MB useEvents=1 contents=Zeros memoryPlacement=Host multiplier=1),803.5855
+StreamMemory(api=sycl type=Triad size=512MB useEvents=1 contents=Random memoryPlacement=Device multiplier=1),804.1030000000001
+StreamMemory(api=sycl type=Triad size=512MB useEvents=1 contents=Random memoryPlacement=Host multiplier=1),778.1614999999999
+StreamMemory(api=sycl type=Triad size=1GB useEvents=0 contents=Zeros memoryPlacement=Device multiplier=1),801.0550000000001
+StreamMemory(api=sycl type=Triad size=1GB useEvents=0 contents=Zeros memoryPlacement=Host multiplier=1),805.1075000000001
+StreamMemory(api=sycl type=Triad size=1GB useEvents=0 contents=Random memoryPlacement=Device multiplier=1),803.4485
+StreamMemory(api=sycl type=Triad size=1GB useEvents=0 contents=Random memoryPlacement=Host multiplier=1),803.5944999999999
+StreamMemory(api=sycl type=Triad size=1GB useEvents=1 contents=Zeros memoryPlacement=Device multiplier=1),805.646
+StreamMemory(api=sycl type=Triad size=1GB useEvents=1 contents=Zeros memoryPlacement=Host multiplier=1),800.817
+StreamMemory(api=sycl type=Triad size=1GB useEvents=1 contents=Random memoryPlacement=Device multiplier=1),809.175
+StreamMemory(api=sycl type=Triad size=1GB useEvents=1 contents=Random memoryPlacement=Host multiplier=1),808.4159999999999
