@@ -1,5 +1,5 @@
 TestCase,Median
-VectorSum(api=sycl numberOfElementsX=128 numberOfElementsY=128 numberOfElementsZ=128),42.076
+VectorSum(api=sycl numberOfElementsX=128 numberOfElementsY=128 numberOfElementsZ=128),42.091
 VectorSum(api=sycl numberOfElementsX=128 numberOfElementsY=128 numberOfElementsZ=256),38.038
 VectorSum(api=sycl numberOfElementsX=128 numberOfElementsY=128 numberOfElementsZ=512),38.477
 VectorSum(api=sycl numberOfElementsX=128 numberOfElementsY=128 numberOfElementsZ=513),38.365
@@ -41,9 +41,9 @@ VectorSum(api=sycl numberOfElementsX=512 numberOfElementsY=256 numberOfElementsZ
 VectorSum(api=sycl numberOfElementsX=512 numberOfElementsY=256 numberOfElementsZ=513),38.972
 VectorSum(api=sycl numberOfElementsX=512 numberOfElementsY=512 numberOfElementsZ=128),38.958
 VectorSum(api=sycl numberOfElementsX=512 numberOfElementsY=512 numberOfElementsZ=256),38.954
-VectorSum(api=sycl numberOfElementsX=512 numberOfElementsY=512 numberOfElementsZ=512),39.003
-VectorSum(api=sycl numberOfElementsX=512 numberOfElementsY=512 numberOfElementsZ=513),38.904
+VectorSum(api=sycl numberOfElementsX=512 numberOfElementsY=512 numberOfElementsZ=512),39.014
+VectorSum(api=sycl numberOfElementsX=512 numberOfElementsY=512 numberOfElementsZ=513),38.913
 VectorSum(api=sycl numberOfElementsX=512 numberOfElementsY=513 numberOfElementsZ=128),38.946
 VectorSum(api=sycl numberOfElementsX=512 numberOfElementsY=513 numberOfElementsZ=256),38.952
 VectorSum(api=sycl numberOfElementsX=512 numberOfElementsY=513 numberOfElementsZ=512),38.919
-VectorSum(api=sycl numberOfElementsX=512 numberOfElementsY=513 numberOfElementsZ=513),38.89
+VectorSum(api=sycl numberOfElementsX=512 numberOfElementsY=513 numberOfElementsZ=513),38.901
