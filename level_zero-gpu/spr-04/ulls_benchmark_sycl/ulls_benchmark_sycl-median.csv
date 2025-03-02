@@ -1,27 +1,27 @@
 TestCase,Median
-BestWalkerSubmission(api=sycl),6.21
-EmptyKernel(api=sycl wgc=1 wgs=1),8.274
-EmptyKernel(api=sycl wgc=1 wgs=32),8.306
-EmptyKernel(api=sycl wgc=1 wgs=256),8.225
-EmptyKernel(api=sycl wgc=1000 wgs=1),9.63
-EmptyKernel(api=sycl wgc=1000 wgs=32),9.617
-EmptyKernel(api=sycl wgc=1000 wgs=256),8.244
-EmptyKernel(api=sycl wgc=10000 wgs=1),9.612
-EmptyKernel(api=sycl wgc=10000 wgs=32),9.605
-EmptyKernel(api=sycl wgc=10000 wgs=256),12.34
-KernelSwitch(api=sycl count=8 kernelTime=200 barrier=0 hostVisible=0 ioq=0 ctrBasedEvents=0),0.525
-KernelSwitch(api=sycl count=8 kernelTime=200 barrier=0 hostVisible=0 ioq=0 ctrBasedEvents=1),0.525
-KernelSwitch(api=sycl count=8 kernelTime=200 barrier=0 hostVisible=0 ioq=1 ctrBasedEvents=0),0.548
-KernelSwitch(api=sycl count=8 kernelTime=200 barrier=0 hostVisible=0 ioq=1 ctrBasedEvents=1),0.548
-KernelSwitch(api=sycl count=8 kernelTime=200 barrier=0 hostVisible=1 ioq=0 ctrBasedEvents=0),0.525
-KernelSwitch(api=sycl count=8 kernelTime=200 barrier=0 hostVisible=1 ioq=0 ctrBasedEvents=1),0.548
-KernelSwitch(api=sycl count=8 kernelTime=200 barrier=0 hostVisible=1 ioq=1 ctrBasedEvents=0),0.548
-KernelSwitch(api=sycl count=8 kernelTime=200 barrier=0 hostVisible=1 ioq=1 ctrBasedEvents=1),0.525
-KernelSwitch(api=sycl count=8 kernelTime=200 barrier=1 hostVisible=0 ioq=0 ctrBasedEvents=0),0.536
-KernelSwitch(api=sycl count=8 kernelTime=200 barrier=1 hostVisible=0 ioq=0 ctrBasedEvents=1),0.548
-KernelSwitch(api=sycl count=8 kernelTime=200 barrier=1 hostVisible=0 ioq=1 ctrBasedEvents=0),0.525
-KernelSwitch(api=sycl count=8 kernelTime=200 barrier=1 hostVisible=0 ioq=1 ctrBasedEvents=1),0.525
-KernelSwitch(api=sycl count=8 kernelTime=200 barrier=1 hostVisible=1 ioq=0 ctrBasedEvents=0),0.536
-KernelSwitch(api=sycl count=8 kernelTime=200 barrier=1 hostVisible=1 ioq=0 ctrBasedEvents=1),0.548
-KernelSwitch(api=sycl count=8 kernelTime=200 barrier=1 hostVisible=1 ioq=1 ctrBasedEvents=0),0.525
-KernelSwitch(api=sycl count=8 kernelTime=200 barrier=1 hostVisible=1 ioq=1 ctrBasedEvents=1),0.548
+BestWalkerSubmission(api=sycl),6.205
+EmptyKernel(api=sycl wgc=1 wgs=1),8.224
+EmptyKernel(api=sycl wgc=1 wgs=32),8.2145
+EmptyKernel(api=sycl wgc=1 wgs=256),8.163
+EmptyKernel(api=sycl wgc=1000 wgs=1),9.5305
+EmptyKernel(api=sycl wgc=1000 wgs=32),9.532
+EmptyKernel(api=sycl wgc=1000 wgs=256),8.192
+EmptyKernel(api=sycl wgc=10000 wgs=1),9.527000000000001
+EmptyKernel(api=sycl wgc=10000 wgs=32),9.5245
+EmptyKernel(api=sycl wgc=10000 wgs=256),12.161
+KernelSwitch(api=sycl count=8 kernelTime=200 barrier=0 hostVisible=0 ioq=0 ctrBasedEvents=0),0.491
+KernelSwitch(api=sycl count=8 kernelTime=200 barrier=0 hostVisible=0 ioq=0 ctrBasedEvents=1),0.491
+KernelSwitch(api=sycl count=8 kernelTime=200 barrier=0 hostVisible=0 ioq=1 ctrBasedEvents=0),0.5025000000000001
+KernelSwitch(api=sycl count=8 kernelTime=200 barrier=0 hostVisible=0 ioq=1 ctrBasedEvents=1),0.5025000000000001
+KernelSwitch(api=sycl count=8 kernelTime=200 barrier=0 hostVisible=1 ioq=0 ctrBasedEvents=0),0.491
+KernelSwitch(api=sycl count=8 kernelTime=200 barrier=0 hostVisible=1 ioq=0 ctrBasedEvents=1),0.5025000000000001
+KernelSwitch(api=sycl count=8 kernelTime=200 barrier=0 hostVisible=1 ioq=1 ctrBasedEvents=0),0.5025000000000001
+KernelSwitch(api=sycl count=8 kernelTime=200 barrier=0 hostVisible=1 ioq=1 ctrBasedEvents=1),0.491
+KernelSwitch(api=sycl count=8 kernelTime=200 barrier=1 hostVisible=0 ioq=0 ctrBasedEvents=0),0.49650000000000005
+KernelSwitch(api=sycl count=8 kernelTime=200 barrier=1 hostVisible=0 ioq=0 ctrBasedEvents=1),0.5025000000000001
+KernelSwitch(api=sycl count=8 kernelTime=200 barrier=1 hostVisible=0 ioq=1 ctrBasedEvents=0),0.491
+KernelSwitch(api=sycl count=8 kernelTime=200 barrier=1 hostVisible=0 ioq=1 ctrBasedEvents=1),0.491
+KernelSwitch(api=sycl count=8 kernelTime=200 barrier=1 hostVisible=1 ioq=0 ctrBasedEvents=0),0.49650000000000005
+KernelSwitch(api=sycl count=8 kernelTime=200 barrier=1 hostVisible=1 ioq=0 ctrBasedEvents=1),0.5025000000000001
+KernelSwitch(api=sycl count=8 kernelTime=200 barrier=1 hostVisible=1 ioq=1 ctrBasedEvents=0),0.491
+KernelSwitch(api=sycl count=8 kernelTime=200 barrier=1 hostVisible=1 ioq=1 ctrBasedEvents=1),0.5025000000000001
