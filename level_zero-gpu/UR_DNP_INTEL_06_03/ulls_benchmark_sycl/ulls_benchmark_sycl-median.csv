@@ -1,11 +1,11 @@
 TestCase,Median
-BestWalkerSubmission(api=sycl),4.5
-EmptyKernel(api=sycl wgc=1 wgs=1),6.37
-EmptyKernel(api=sycl wgc=1 wgs=32),6.3695
-EmptyKernel(api=sycl wgc=1 wgs=256),6.3765
-EmptyKernel(api=sycl wgc=1000 wgs=1),7.425000000000001
-EmptyKernel(api=sycl wgc=1000 wgs=32),7.4215
-EmptyKernel(api=sycl wgc=1000 wgs=256),6.3870000000000005
+BestWalkerSubmission(api=sycl),4.511
+EmptyKernel(api=sycl wgc=1 wgs=1),6.3545
+EmptyKernel(api=sycl wgc=1 wgs=32),6.3635
+EmptyKernel(api=sycl wgc=1 wgs=256),6.368
+EmptyKernel(api=sycl wgc=1000 wgs=1),7.4115
+EmptyKernel(api=sycl wgc=1000 wgs=32),7.413
+EmptyKernel(api=sycl wgc=1000 wgs=256),6.3805
 EmptyKernel(api=sycl wgc=10000 wgs=1),7.521
 EmptyKernel(api=sycl wgc=10000 wgs=32),7.5335
 EmptyKernel(api=sycl wgc=10000 wgs=256),9.629999999999999
